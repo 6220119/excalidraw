@@ -66,6 +66,7 @@ export function clearAppStatePropertiesForHistory(
     currentItemOpacity: appState.currentItemOpacity,
     currentItemFont: appState.currentItemFont,
     viewBackgroundColor: appState.viewBackgroundColor,
+    selectedElementIds: appState.selectedElementIds,
     name: appState.name,
   };
 }
